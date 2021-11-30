@@ -1,0 +1,94 @@
+﻿@media only screen and (max-width: 1200px) {
+    .sag {
+        display:none;
+    }
+     .sag2 {
+        display:block;
+    }
+
+}
+@media only screen and (max-width: 1200px) {
+
+    .slider h4 {
+        padding: 10px 20px;
+        font-size: 24px;
+        width:80%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .slider p {
+        padding: 10px 20px;
+        font-size: 14px;
+        width:80%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    
+.duyurular {
+   padding-bottom:10px;
+    z-index:70;
+}
+
+.duyuru .duyurubaslik h4{
+    line-height:20px;
+}
+.duyuru .duyurubaslik h2{
+    line-height:30px;
+}
+.duyuru .btn i{
+    font-size:14px;
+    line-height:50px;
+    padding:0 10px;
+}
+.duyuru .tarih{
+    padding:20px 0;
+}
+.dicon {
+    display:none;
+}
+.bilgi1 .b1resim{
+    margin-top:20px;
+}
+.bilgi1 .b1resim img{
+    width:100%;
+}
+.bilgi2 .b1resim{
+    margin-top:20px;
+}
+.bilgi2 .b1resim img{
+    width:100%;
+    height:auto;
+}
+
+.duyurulartum ul {
+    width:100%;
+}
+
+.duyuru {
+    margin-top:10px;    
+}
+.duyurulartum .duyuru .duyurubaslik h4{
+    line-height:20px;
+}
+.duyurulartum .duyuru .duyurubaslik h2{
+    line-height:30px;
+}
+.duyurulartum .duyuru .btn i{
+    font-size:14px;
+    line-height:50px;
+    padding:0 10px;
+}
+.duyurulartum .duyuru .tarih{
+    padding:20px 0;
+}
+
+.haber {
+    margin-top:10px;    
+}
+.duyurulartum2 ul li{
+    float:none;
+}
+
+}

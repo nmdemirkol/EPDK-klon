@@ -1,0 +1,922 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="5">
+    <meta name="keywords" content="">
+    <meta name="author" content="Nuh Mehmet DEMİRKOL">
+    <meta name="viewport" content="width=device-width, initial-scale=1  maximum-scale=1 user-scalable=no">
+
+    <!-- Page Title -->
+    <title>EPDK | Enerji Piyasası Düzenleme Kurumu</title>
+
+    <!-- Favicon  -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favico.png">
+
+    <!-- Theme Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
+
+    <!-- Font Awesome css -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Animate css -->
+    <link href="css/animate.css" rel="stylesheet" />
+
+    <!-- Owl Carousel css -->
+    <link href="css/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Slick css -->
+    <link href="css/slick.css" rel="stylesheet" />
+
+    <!-- Template css -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- Responsive css -->
+    <link href="css/responsive.css" rel="stylesheet" />
+
+    <!-- Template css -->
+    <link href="css/paralax.css" rel="stylesheet" />
+
+    <link href="css/detay.css" rel="stylesheet" />
+
+    <!-- Lightbox css -->
+    <link href="css/ekko-lightbox.css" rel="stylesheet" />
+    
+
+</head>
+<body>
+    <!-- resposive menu -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div id="accordian">
+            <ul>
+                <li><a href="#">Hızlı Erişim</a></li>
+                <!--<li class="active"> aktif etmek için kullamnılır -->
+                <li>
+                    <a href="#">Kurumsal</a>
+                    <ul>
+                        <li><a href="#">Today's tasks</a></li>
+                        <li><a href="#">Urgent</a></li>
+                        <li>
+                            <a href="#">Overdues</a>
+                            <ul>
+                                <li><a href="#">Today's tasks</a></li>
+                                <li><a href="#">Urgent</a></li>
+                                <li><a href="#">Overdues</a></li>
+                                <li><a href="#">Recurring</a></li>
+                                <li><a href="#">Settings</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Recurring</a></li>
+                        <li><a href="#">Settings</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Elektirik</a>
+                    <ul>
+                        <li><a href="#">Today's tasks</a></li>
+                        <li><a href="#">Urgent</a></li>
+                        <li><a href="#">Overdues</a></li>
+                        <li><a href="#">Recurring</a></li>
+                        <li><a href="#">Settings</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Doğal Gaz</a></li>
+                <li><a href="#">Petrol</a></li>
+                <li><a href="#">LPG</a></li>
+
+            </ul>
+
+        </div>
+    </div>
+    <header class="container-fluid">
+        <div class="container" style="position:relative ;">
+            <div class="row">
+                <div class="logo col-md-3 col-6">
+                    <img src="images/logo.png" />
+                </div>
+                <div class="sag col-md-9 col-6" style="position:inherit ;">
+                    <div class="row" style="position:inherit ;">
+                        <div class="col-12 um">
+                            <ul>
+                                <li class="um-icon-text">
+                                    <a href="#">
+                                        <div class="icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
+                                        <div class="text">English</div>
+                                    </a>
+                                </li>
+                                <li class="um-icon-text">
+                                    <a href="#">
+                                        <div class="icon"><i class="fa fa-sitemap" aria-hidden="true"></i></div>
+                                        <div class="text">Site Haritası</div>
+                                    </a>
+                                </li>
+                                <li class="um-icon-text">
+                                    <a href="#">
+                                        <div class="icon"><i class="fa fa-rss" aria-hidden="true"></i></div>
+                                        <div class="text">RSS</div>
+                                    </a>
+                                </li>
+                                <li class="um-text">
+                                    <a href="#">
+                                        <div class="text">RSS</div>
+                                    </a>
+                                </li>
+                                <li class="um-icon">
+                                    <a href="#">
+                                        <div class="icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                                    </a>
+                                </li>
+                                <li class="um-icon">
+                                    <a href="#">
+                                        <div class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                                    </a>
+                                </li>
+                                <li class="um-icon">
+                                    <a href="#">
+                                        <div class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                                    </a>
+                                </li>
+                                <li class="um-icon">
+                                    <a href="#">
+                                        <div class="icon"><i class="fa fa-youtube" aria-hidden="true"></i></div>
+                                    </a>
+                                </li>
+                                <li class="um-icon">
+                                    <a href="#">
+                                        <div class="icon"><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+                                    </a>
+                                </li>
+                                <li class="um-search">
+                                    <input type="text" name="search" placeholder="Arama..">
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="col-12 navm" style="position:inherit ;">
+                            <ul>
+                                <!--<li class="navm-icon-text">
+                                    <a href="#">
+                                        <div class="icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
+                                        <div class="text">Deneme</div>
+                                    </a>
+                                </li>
+                                <li class="navm-text">
+                                    <a href="#">
+                                        <div class="text">Deneme</div>
+                                    </a>
+                                </li>
+                                <li class="navm-icon">
+                                    <a href="#">
+                                        <div class="icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                                    </a>
+                                </li>-->
+                                <li class="navm-text dropdownmenu ">
+                                    <a href="#" class="dropbtnmenu">
+                                        <div class="text">Hızlı Erişim</div>
+                                    </a>
+                                    <div class="dropdown-contentmenu row ">
+                                        <div class="headermenu col-12">
+                                            <h2>Hızlı Erişim</h2>
+                                        </div>
+                                        <div class="col-12 ">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <div class="row icmenu">
+                                                        <div class="col-12 icmbaslik">
+                                                            <h3>Tarifeler</h3>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Eletirik Piyasası Tarifeleri</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Doğal Gaz Piyasası Tarifeleri</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Petrol Piyasası Tarifeleri</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">LPG Piyasası Tarifeleri</a>
+                                                        </div>
+                                                        <div class="col-12 icmara">
+                                                            <span></span>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Elektrik Fatura Hesaplama</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Hesap Numaraları</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">KEP Adreslerimiz</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Evrak Sorgulama</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">İletişim</a>
+                                                        </div>
+                                                        <div class="col-12 icmara">
+                                                            <span></span>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Duyuru Arama</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Duyurular RSS</a>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-4 ">
+                                                    <div class="row icmenu">
+                                                        <div class="col-12 icmbaslik">
+                                                            <h3>Yayınlar / Raporlar</h3>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Elektrik Piyasası</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Doğal Gaz Piyasası</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Petrol Piyasası</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">LPG Piyasası</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Stratejik Planlar</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Piyasa Gelişim Raporu</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Faaliyet Raporları</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Yatırımcı El Kitabı</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Aylık Toplu Lisanslar</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Ar-Ge Projeleri</a>
+                                                        </div>
+                                                        <div class="col-12 icmbaslik">
+                                                            <h3>Basın</h3>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Basın Açıklamaları</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Konuşma Metinleri</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Haber Arşivi</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Kurum Logosu</a>
+                                                        </div>
+
+
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="row icmenu">
+                                                        <div class="col-12 icmbaslik">
+                                                            <h3>Denetim</h3>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Bağımsız Denetim Kuruluşları</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Yönetmelikler</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Tebliğler</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Kurul Kararları</a>
+                                                        </div>
+
+                                                        <div class="col-12 icmbaslik">
+                                                            <h3>Denetim Mevzuatı</h3>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Elektrik Piyasası Denetimleri</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Doğal Gaz Piyasası Denetimleri</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Petrol Piyasası Denetimleri</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">LPG Piyasası Denetimleri</a>
+                                                        </div>
+
+                                                        <div class="col-12 icmbaslik">
+                                                            <h3>Bildirim Sistemi</h3>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Elektrik Piyasası</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Doğal Gaz Piyasası</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">Petrol Piyasası</a>
+                                                        </div>
+                                                        <div class="col-12 icmeleman">
+                                                            <a href="#">LPG Piyasası</a>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </li>
+                                <li class="navm-text dropdownmenu">
+                                    <a href="#" class="dropbtnmenu">
+                                        <div class="text">Kurumsal</div>
+                                    </a>
+                                    <div class="dropdown-contentmenu">
+                                        <div class="headermenu col-12">
+                                            <h2>Kurumsal</h2>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <h3>Category 1</h3>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <a href="#">Link 1</a>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <a href="#">Link 2</a>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <a href="#">Link 3</a>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <h3>Category 2</h3>
+                                                <a href="#">Link 1</a>
+                                                <a href="#">Link 2</a>
+                                                <a href="#">Link 3</a>
+                                            </div>
+                                            <div class="col-4">
+                                                <h3>Category 3</h3>
+                                                <a href="#">Link 1</a>
+                                                <a href="#">Link 2</a>
+                                                <a href="#">Link 3</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="navm-text dropdownmenu">
+                                    <a href="#" class="dropbtnmenu">
+                                        <div class="text">Elektirik</div>
+                                    </a>
+                                    <div class="dropdown-contentmenu">
+                                        <div class="headermenu col-12">
+                                            <h2>Elektirik</h2>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <h3>Category 1</h3>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <a href="#">Link 1</a>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <a href="#">Link 2</a>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <a href="#">Link 3</a>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <h3>Category 2</h3>
+                                                <a href="#">Link 1</a>
+                                                <a href="#">Link 2</a>
+                                                <a href="#">Link 3</a>
+                                            </div>
+                                            <div class="col-4">
+                                                <h3>Category 3</h3>
+                                                <a href="#">Link 1</a>
+                                                <a href="#">Link 2</a>
+                                                <a href="#">Link 3</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="navm-text dropdownmenu">
+                                    <a href="#" class="dropbtnmenu">
+                                        <div class="text">Doğal Gaz</div>
+                                    </a>
+                                    <div class="dropdown-contentmenu">
+                                        <div class="headermenu col-12">
+                                            <h2>Doğal Gaz</h2>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <h3>Category 1</h3>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <a href="#">Link 1</a>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <a href="#">Link 2</a>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <a href="#">Link 3</a>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <h3>Category 2</h3>
+                                                <a href="#">Link 1</a>
+                                                <a href="#">Link 2</a>
+                                                <a href="#">Link 3</a>
+                                            </div>
+                                            <div class="col-4">
+                                                <h3>Category 3</h3>
+                                                <a href="#">Link 1</a>
+                                                <a href="#">Link 2</a>
+                                                <a href="#">Link 3</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="navm-text dropdownmenu">
+                                    <a href="#" class="dropbtnmenu">
+                                        <div class="text">Petrol</div>
+                                    </a>
+                                    <div class="dropdown-contentmenu">
+                                        <div class="headermenu col-12">
+                                            <h2>Petrol</h2>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <h3>Category 1</h3>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <a href="#">Link 1</a>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <a href="#">Link 2</a>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <a href="#">Link 3</a>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <h3>Category 2</h3>
+                                                <a href="#">Link 1</a>
+                                                <a href="#">Link 2</a>
+                                                <a href="#">Link 3</a>
+                                            </div>
+                                            <div class="col-4">
+                                                <h3>Category 3</h3>
+                                                <a href="#">Link 1</a>
+                                                <a href="#">Link 2</a>
+                                                <a href="#">Link 3</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="navm-text dropdownmenu">
+                                    <a href="#" class="dropbtnmenu">
+                                        <div class="text">LPG</div>
+                                    </a>
+                                    <div class="dropdown-contentmenu">
+                                        <div class="headermenu col-12">
+                                            <h2>LPG</h2>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <h3>Category 1</h3>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <a href="#">Link 1</a>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <a href="#">Link 2</a>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <a href="#">Link 3</a>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <h3>Category 2</h3>
+                                                <a href="#">Link 1</a>
+                                                <a href="#">Link 2</a>
+                                                <a href="#">Link 3</a>
+                                            </div>
+                                            <div class="col-4">
+                                                <h3>Category 3</h3>
+                                                <a href="#">Link 1</a>
+                                                <a href="#">Link 2</a>
+                                                <a href="#">Link 3</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="sag2 col-md-9 col-6">
+                    <span onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container-fluid detaybaslik">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Detay Sayfası</h1>
+                    <p><a href="#">Home</a> <i class="fa fa-chevron-right" aria-hidden="true"></i> <a href="#">Detay</a></p>
+                    <div class="paylas">
+                        <ul>
+                            <li class="paylas-icon-text">
+                                <a href="#">
+                                    <div class="icon"><i class="fa fa-print" aria-hidden="true"></i></div>
+                                    <div class="text">Yazdır</div>
+                                </a>
+                            </li>
+                            <li class="paylas-text">
+                                    <div class="yazi">Paylaş :</div>
+                            </li>
+                            <li class="paylas-icon">
+                                <a href="#">
+                                    <div class="icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                                </a>
+                            </li>
+                            <li class="paylas-icon">
+                                <a href="#">
+                                    <div class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                                </a>
+                            </li>
+                            <li class="paylas-icon">
+                                <a href="#">
+                                    <div class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                                </a>
+                            </li>
+                            <li class="paylas-icon">
+                                <a href="#">
+                                    <div class="icon"><i class="fa fa-youtube" aria-hidden="true"></i></div>
+                                </a>
+                            </li>
+                            <li class="paylas-icon">
+                                <a href="#">
+                                    <div class="icon"><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container-fluid icerik">
+        <div class="container">
+            <div class="row">
+                <div id="accordian2" class="col-md-3 solmenu">
+                    <ul>
+                        <!--<li class="dt-icon-text">
+                            <a class="tablinks">
+                                <div class="icon"><i class="fa fa-bolt" aria-hidden="true"></i></div>
+                                <div class="text">Elektirik</div>
+                            </a>
+                        </li>-->
+                        <li class="dt-text">
+                            <a class="tablinks">
+                                <div class="text">Menü 1</div>
+                            </a>
+                            <ul>
+                                <li class="dt-text">
+                                    <a class="tablinks">
+                                        <div class="text">Menü 2</div>
+                                    </a>
+                                </li>
+                                <li class="dt-text">
+                                    <a class="tablinks">
+                                        <div class="text">Menü 3</div>
+                                    </a>
+                                </li>
+                                <li class="dt-text">
+                                    <a class="tablinks">
+                                        <div class="text">Menü 4</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dt-text">
+                            <a class="tablinks">
+                                <div class="text">Menü 2</div>
+                            </a>
+                            <ul>
+                                <li class="dt-text">
+                                    <a class="tablinks">
+                                        <div class="text">Menü 2</div>
+                                    </a>
+                                </li>
+                                <li class="dt-text">
+                                    <a class="tablinks">
+                                        <div class="text">Menü 3</div>
+                                    </a>
+                                </li>
+                                <li class="dt-text">
+                                    <a class="tablinks">
+                                        <div class="text">Menü 4</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dt-text">
+                            <a class="tablinks">
+                                <div class="text">Menü 3</div>
+                            </a>
+                        </li>
+                        <li class="dt-text">
+                            <a class="tablinks">
+                                <div class="text">Menü 4</div>
+                            </a>
+                        </li>
+                        <li class="dt-text">
+                            <a class="tablinks">
+                                <div class="text">Menü 5</div>
+                            </a>
+                        </li>
+                        <li class="dt-text">
+                            <a class="tablinks">
+                                <div class="text">Menü 6</div>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <div class="col-md-9 dicerik">
+                    <div class="row">
+                        <div class="col-12 videobolum">
+                            <div class="row">
+                                <div class="col-12 vbaslik">
+                                    <h4>Fotograflar</h4>
+                                    <p>4 fotograf</p>
+                                    <b>01.01.2018</b>
+                                </div>
+
+ 
+                                <div class="col-md-3">
+                                    <div class="vic">
+                                        <a href="images/dimg2.jpg" data-toggle="lightbox"  data-gallery="example-gallery" data-title="A random title" data-footer="A custom footer text">
+                                            <img src="images/dimg2.jpg" class="img-fluid">
+                                            <p>Video açıklaması dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.</p>
+                                            <div class="vicon"><img src="images/icon/picture.png" /></div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="vic">
+                                        <a href="images/dimg2.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="A random title" data-footer="A custom footer text">
+                                            <img src="images/dimg2.jpg" class="img-fluid">
+                                            <p>Video açıklaması dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.</p>
+                                            <div class="vicon"><img src="images/icon/picture.png" /></div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="vic">
+                                        <a href="images/dimg2.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="A random title" data-footer="A custom footer text">
+                                            <img src="images/dimg2.jpg" class="img-fluid">
+                                            <p>Video açıklaması dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.</p>
+                                            <div class="vicon"><img src="images/icon/picture.png" /></div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="vic">
+                                        <a href="images/dimg2.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="A random title" data-footer="A custom footer text">
+                                            <img src="images/dimg2.jpg" class="img-fluid">
+                                            <p>Video açıklaması dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.</p>
+                                            <div class="vicon"><img src="images/icon/picture.png" /></div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 vbaslik">
+                                    <h4>Fotograflar</h4>
+                                    <p>4 fotograf</p>
+                                    <b>01.01.2018</b>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="vic">
+                                        <a href="images/dimg2.jpg" data-toggle="lightbox" data-gallery="example-gallery2" data-title="A random title" data-footer="A custom footer text">
+                                            <img src="images/dimg2.jpg" class="img-fluid">
+                                            <p>Video açıklaması dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.</p>
+                                            <div class="vicon"><img src="images/icon/picture.png" /></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="vic">
+                                        <a href="images/dimg2.jpg" data-toggle="lightbox" data-gallery="example-gallery2" data-title="A random title" data-footer="A custom footer text">
+                                            <img src="images/dimg2.jpg" class="img-fluid">
+                                            <p>Video açıklaması dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.</p>
+                                            <div class="vicon"><img src="images/icon/picture.png" /></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="vic">
+                                        <a href="images/dimg2.jpg" data-toggle="lightbox" data-gallery="example-gallery2" data-title="A random title" data-footer="A custom footer text">
+                                            <img src="images/dimg2.jpg" class="img-fluid">
+                                            <p>Video açıklaması dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.</p>
+                                            <div class="vicon"><img src="images/icon/picture.png" /></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="vic">
+                                        <a href="images/dimg2.jpg" data-toggle="lightbox" data-gallery="example-gallery2" data-title="A random title" data-footer="A custom footer text">
+                                            <img src="images/dimg2.jpg" class="img-fluid">
+                                            <p>Video açıklaması dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.</p>
+                                            <div class="vicon"><img src="images/icon/picture.png" /></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="vic">
+                                        <a href="images/dimg2.jpg" data-toggle="lightbox" data-gallery="example-gallery2" data-title="A random title" data-footer="A custom footer text">
+                                            <img src="images/dimg2.jpg" class="img-fluid">
+                                            <p>Video açıklaması dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.</p>
+                                            <div class="vicon"><img src="images/icon/picture.png" /></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="vic">
+                                        <a href="images/dimg2.jpg" data-toggle="lightbox" data-gallery="example-gallery2" data-title="A random title" data-footer="A custom footer text">
+                                            <img src="images/dimg2.jpg" class="img-fluid">
+                                            <p>Video açıklaması dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.</p>
+                                            <div class="vicon"><img src="images/icon/picture.png" /></div>
+                                        </a>
+                                    </div>
+                                </div>
+
+
+                               
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <footer class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="col-12 icmbaslik">
+                        <h3>Yayınlar / Raporlar</h3>
+                    </div>
+                    <div class="col-12 icmeleman">
+                        <a href="#">Elektrik Piyasası</a>
+                    </div>
+                    <div class="col-12 icmeleman">
+                        <a href="#">Doğal Gaz Piyasası</a>
+                    </div>
+                    <div class="col-12 icmeleman">
+                        <a href="#">Petrol Piyasası</a>
+                    </div>
+                    <div class="col-12 icmeleman">
+                        <a href="#">LPG Piyasası</a>
+                    </div>
+                    <div class="col-12 icmeleman">
+                        <a href="#">Stratejik Planlar</a>
+                    </div>
+                    <div class="col-12 icmeleman">
+                        <a href="#">Piyasa Gelişim Raporu</a>
+                    </div>
+      
+                    
+                </div>
+                <div class="col-md-4">
+                    <div class="col-12 icmbaslik">
+                        <h3>Yayınlar / Raporlar</h3>
+                    </div>
+                    <div class="col-12 icmeleman">
+                        <a href="#">Elektrik Piyasası</a>
+                    </div>
+                    <div class="col-12 icmeleman">
+                        <a href="#">Doğal Gaz Piyasası</a>
+                    </div>
+                    <div class="col-12 icmeleman">
+                        <a href="#">Petrol Piyasası</a>
+                    </div>
+                    <div class="col-12 icmeleman">
+                        <a href="#">LPG Piyasası</a>
+                    </div>
+                    <div class="col-12 icmeleman">
+                        <a href="#">Stratejik Planlar</a>
+                    </div>
+                    <div class="col-12 icmeleman">
+                        <a href="#">Piyasa Gelişim Raporu</a>
+                    </div>
+
+
+                </div>
+                <div class="col-md-4">
+                    <div class="col-12 icbolum">
+                        <p><i class="fa fa-map-marker" aria-hidden="true"></i>İşçi Blokları Mahallesi Muhsin Yazıcıoğlu Caddesi (Eski 1483 Cd.) No:51/C 06530 Yüzüncüyıl/Çankaya/ANKARA</p>
+                        <p><i class="fa fa-phone" aria-hidden="true"></i>(0312) 201 40 00 - 01 - 02</p>
+                        <p><i class="fa fa-fax" aria-hidden="true"></i>(0312) 201 40 50</p>
+                        <p><i class="fa fa-sitemap" aria-hidden="true"></i>	http://www.epdk.gov.tr</p>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                   
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JQuery -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+
+
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Owl Carousel js -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- Slick js -->
+    <script src="js/slick.min.js"></script>
+
+    <!-- Paralax js -->
+    <script src="js/paralax.js"></script>
+
+    <!-- Lightbox js -->
+    <script src="js/ekko-lightbox.js"></script>
+
+    <!-- Main js -->
+    <script src="js/main.js"></script>
+
+
+
+
+
+</body>
+</html>
